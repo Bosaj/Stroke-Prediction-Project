@@ -5,6 +5,14 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Fixed
+- `notebook/app.py` built its feature array in the wrong column order and re-fit a throwaway `LabelEncoder` on each single input value (always encoding to 0), so every categorical field was silently ignored and numeric fields were fed into the wrong model input slots. Rebuilt the categorical mappings from the training notebook's actual encoding order and corrected the column order to match training. See the commit message for full detail.
+
+### Added
+- `.github/workflows/pages.yml`: publishes the notebook's rendered outputs as a static GitHub Pages site on every push to `main`.
+
 ## [1.0.0] - 2024-12-16
 
 ### Added
