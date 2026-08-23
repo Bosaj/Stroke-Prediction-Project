@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install nbformat flake8
+      - name: Validate notebook structural integrity
+        run: |
+          python -c "
+          import nbformat, glob
+          for path in glob.glob('notebook/*.ipynb'):
+              nbformat.read(open(path, encoding='utf-8'), as_version=4)
+              print(f'OK: {path}')
+          "
+      - name: Byte-compile Streamlit app
+        run: python -m py_compile notebook/app.py
+      - name: Flake8 (critical errors only)
+        run: flake8 notebook/app.py --select=E9,F63,F7,F82 --show-source
