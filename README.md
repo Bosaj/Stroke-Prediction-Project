@@ -8,6 +8,11 @@
   <img src="assets/social_preview.jpg" alt="Stroke-Prediction-Project Banner" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://huggingface.co/spaces/bosaj/clinical-stroke-risk-predictor" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Predictor-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Live Demo" /></a>
+  <a href="https://huggingface.co/datasets/bosaj/stroke-prediction-dataset" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-00D9FF?style=for-the-badge&logo=huggingface&logoColor=black" alt="Dataset" /></a>
+</p>
+
 ![CI Pipeline](https://github.com/Bosaj/Stroke-Prediction-Project/actions/workflows/ci_qa_monitoring.yml/badge.svg)
 [![GitHub Wiki](https://img.shields.io/badge/Documentation-GitHub%20Wiki-blue.svg)](https://github.com/Bosaj/Stroke-Prediction-Project/wiki)
 [![Quality Gate](https://img.shields.io/badge/Quality%20Gate-Passed-brightgreen.svg)](docs/MONITORING_AND_QA.md)
