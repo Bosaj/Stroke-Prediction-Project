@@ -92,10 +92,10 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE).
 ## 👥 Project Engineering Team (2024)
 
 This project was collaboratively engineered by:
-- **EL HADJI Oussama** — Machine Learning Modeling & Interactive Architecture Lead ([@Bosaj](https://github.com/Bosaj))
-- **BAHAYA Radia** — Data Preprocessing, Outlier Remediation & Biomarker Analysis
-- **GHAFFARI Oualid** — Model Evaluation, ROC/AUC Curves & Diagnostic Metrics
-- **SADOG Imane** — Class Imbalance Handling, SMOTE Oversampling & Cross-Validation
+- **EL HADJI Oussama** — Machine Learning Modeling & Interactive Architecture Lead ([GitHub @Bosaj](https://github.com/Bosaj) • [HF @bosaj](https://huggingface.co/bosaj))
+- **BAHAYA Radia** — Data Preprocessing, Outlier Remediation & Biomarker Analysis ([HF @Radia1](https://huggingface.co/Radia1) • [LinkedIn](https://www.linkedin.com/in/radia-bahaya-bb6a52260/))
+- **GHAFFARI Oualid** — Model Evaluation, ROC/AUC Curves & Diagnostic Metrics ([HF @oualidghaffari](https://huggingface.co/oualidghaffari) • [LinkedIn](https://www.linkedin.com/in/ghaffari-oualid/))
+- **SADOG Imane** — Class Imbalance Handling, SMOTE Oversampling & Cross-Validation ([GitHub @ImaneSDG](https://github.com/ImaneSDG) • [LinkedIn](https://www.linkedin.com/in/imane-sadog-a58aa8313/))
 
 
 ## 📊 Monitoring, Controlling, Evaluation & QA
