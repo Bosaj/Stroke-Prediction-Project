@@ -1,6 +1,9 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bosaj/Stroke-Prediction-Project/blob/main/notebook/Equipe_NotebookV1.ipynb)
 # Stroke-Prediction-Project
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Bosaj/Stroke-Prediction-Project) [![GitHub release](https://img.shields.io/github/v/release/Bosaj/Stroke-Prediction-Project?color=blue&label=release)](https://github.com/Bosaj/Stroke-Prediction-Project/releases) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+
 <p align="center">
   <img src="assets/social_preview.jpg" alt="Stroke-Prediction-Project Banner" width="100%">
 </p>
