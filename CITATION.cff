@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or research code, please cite it as below."
+authors:
+  - family-names: "EL HADJI"
+    given-names: "Oussama"
+    orcid: ""
+title: "Stroke Prediction & Clinical Risk Scoring System"
+version: 1.0.0
+date-released: 2026-09-20
+url: "https://github.com/Bosaj/Stroke-Prediction-Project"
+abstract: "Machine learning framework for stroke risk assessment and clinical prediction."
+keywords:
+  - machine-learning
+  - deep-learning
+  - data-science
+  - python
+license: MIT

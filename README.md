@@ -1,3 +1,4 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bosaj/Stroke-Prediction-Project/blob/main/notebook/Equipe_NotebookV1.ipynb)
 # Stroke-Prediction-Project
 
 <p align="center">
