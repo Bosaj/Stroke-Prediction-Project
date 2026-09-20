@@ -89,9 +89,13 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE).
 
-## Author
+## 👥 Project Engineering Team (2024)
 
-Oussama EL HADJI — [github.com/Bosaj](https://github.com/Bosaj)
+This project was collaboratively engineered by:
+- **EL HADJI Oussama** — Machine Learning Modeling & Interactive Architecture Lead ([@Bosaj](https://github.com/Bosaj))
+- **BAHAYA Radia** — Data Preprocessing, Outlier Remediation & Biomarker Analysis
+- **GHAFFARI Oualid** — Model Evaluation, ROC/AUC Curves & Diagnostic Metrics
+- **SADOG Imane** — Class Imbalance Handling, SMOTE Oversampling & Cross-Validation
 
 
 ## 📊 Monitoring, Controlling, Evaluation & QA
