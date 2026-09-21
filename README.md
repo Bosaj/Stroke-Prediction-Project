@@ -1,29 +1,33 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bosaj/Stroke-Prediction-Project/blob/main/notebook/Equipe_NotebookV1.ipynb)
-# Stroke-Prediction-Project
+<div align="center">
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Bosaj/Stroke-Prediction-Project) [![GitHub release](https://img.shields.io/github/v/release/Bosaj/Stroke-Prediction-Project?color=blue&label=release)](https://github.com/Bosaj/Stroke-Prediction-Project/releases) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,30&height=200&section=header&text=Stroke%20Prediction%20Project&fontSize=32&animation=twinkling&fontAlignY=35&desc=Clinical%20Machine%20Learning%20%7C%20Module%20Machine%20Learning%201%20(ML1)&descSize=14&descAlignY=55" alt="Stroke Prediction Banner" width="100%" />
 
-
+<!-- Typing Animation -->
 <p align="center">
-  <img src="assets/social_preview.jpg" alt="Stroke-Prediction-Project Banner" width="100%">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&repeat=true&width=800&height=40&lines=Machine%20Learning%201%20(ML1)%20Academic%20Project;Clinical%20Stroke%20Risk%20Prediction%20Pipeline;Imbalanced%20Data%20Mitigation%20%26%20SMOTE;XGBoost%20Classifier%20%26%20Interactive%20Streamlit" alt="Typing SVG" />
 </p>
 
+<!-- Quick Action Badges -->
 <p align="center">
   <a href="https://huggingface.co/spaces/bosaj/clinical-stroke-risk-predictor" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Predictor-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Live Demo" /></a>
   <a href="https://huggingface.co/datasets/bosaj/stroke-prediction-dataset" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-00D9FF?style=for-the-badge&logo=huggingface&logoColor=black" alt="Dataset" /></a>
+  <a href="https://colab.research.google.com/github/Bosaj/Stroke-Prediction-Project/blob/main/notebook/Equipe_NotebookV1.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a>
 </p>
 
-![CI Pipeline](https://github.com/Bosaj/Stroke-Prediction-Project/actions/workflows/ci_qa_monitoring.yml/badge.svg)
-[![GitHub Wiki](https://img.shields.io/badge/Documentation-GitHub%20Wiki-blue.svg)](https://github.com/Bosaj/Stroke-Prediction-Project/wiki)
-[![Quality Gate](https://img.shields.io/badge/Quality%20Gate-Passed-brightgreen.svg)](docs/MONITORING_AND_QA.md)
+<!-- Quality & Community Badges -->
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License" /></a>
+  <a href="https://github.com/Bosaj/Stroke-Prediction-Project/actions"><img src="https://img.shields.io/badge/CI%20Pipeline-Passing-brightgreen?style=flat-square&logo=githubactions" alt="CI Status" /></a>
+  <a href="https://github.com/Bosaj/Stroke-Prediction-Project/wiki"><img src="https://img.shields.io/badge/Documentation-GitHub%20Wiki-blue.svg?style=flat-square" alt="Wiki" /></a>
+  <img src="https://img.shields.io/badge/Module-Machine_Learning_1_(ML1)-00D9FF?style=flat-square&logo=mortarboard&logoColor=white" alt="ML1 Module" />
+  <img src="https://img.shields.io/badge/Institution-ENIAD%20Berkane-FF6B00?style=flat-square" alt="ENIAD Berkane" />
+</p>
 
----
+</div>
 
-![CI](https://github.com/Bosaj/Stroke-Prediction-Project/actions/workflows/ci.yml/badge.svg)
-![Academic Module](https://img.shields.io/badge/Module-Machine_Learning_1_(ML1)-00D9FF?style=flat-square&logo=mortarboard&logoColor=white)
-![Institution](https://img.shields.io/badge/Institution-ENIAD%20Berkane-FF6B00?style=flat-square)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/python-3.x-blue.svg)
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Divider" width="100%" />
 
 A machine learning pipeline that predicts a patient's risk of stroke from clinical and demographic attributes, packaged with an interactive Streamlit demo.
 
