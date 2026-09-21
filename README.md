@@ -20,10 +20,16 @@
 ---
 
 ![CI](https://github.com/Bosaj/Stroke-Prediction-Project/actions/workflows/ci.yml/badge.svg)
+![Academic Module](https://img.shields.io/badge/Module-Machine_Learning_1_(ML1)-00D9FF?style=flat-square&logo=mortarboard&logoColor=white)
+![Institution](https://img.shields.io/badge/Institution-ENIAD%20Berkane-FF6B00?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/python-3.x-blue.svg)
 
 A machine learning pipeline that predicts a patient's risk of stroke from clinical and demographic attributes, packaged with an interactive Streamlit demo.
+
+## 📖 Academic Course Context — Machine Learning 1 (ML1)
+
+This project was developed within the **Machine Learning 1** engineering module at the **École Nationale d'Intelligence Artificielle et du Digital (ENIAD)**, Mohammed First University, Berkane, Morocco. It demonstrates end-to-end clinical machine learning workflows, advanced data preprocessing, imbalanced data handling, and production model packaging.
 
 ## Overview
 
