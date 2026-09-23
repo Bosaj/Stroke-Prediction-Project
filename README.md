@@ -76,7 +76,7 @@ streamlit run app.py
 
 ## Testing / CI
 
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml) validates the notebook's structural integrity, installs the full dependency set, and lints the Streamlit app for critical errors on every push.
+[`.github/workflows/ci_qa_monitoring.yml`](.github/workflows/ci_qa_monitoring.yml) validates the notebook's structural integrity, installs the full dependency set, and lints the Streamlit app for critical errors on every push.
 
 ## Project Structure
 
