@@ -33,23 +33,37 @@ SMOKING_STATUS_MAP = {
 }
 
 
-def predict(age, avg_glucose_level, bmi, gender, hypertension, heart_disease,
-            ever_married, work_type, residence_type, smoking_status):
+def predict(
+    age,
+    avg_glucose_level,
+    bmi,
+    gender,
+    hypertension,
+    heart_disease,
+    ever_married,
+    work_type,
+    residence_type,
+    smoking_status,
+):
     # Column order must match training exactly: gender, age, hypertension,
     # heart_disease, ever_married, work_type, Residence_type,
     # avg_glucose_level, bmi, smoking_status.
-    input_data = np.array([[
-        GENDER_MAP[gender],
-        age,
-        hypertension,
-        heart_disease,
-        EVER_MARRIED_MAP[ever_married],
-        WORK_TYPE_MAP[work_type],
-        RESIDENCE_TYPE_MAP[residence_type],
-        avg_glucose_level,
-        bmi,
-        SMOKING_STATUS_MAP[smoking_status],
-    ]])
+    input_data = np.array(
+        [
+            [
+                GENDER_MAP[gender],
+                age,
+                hypertension,
+                heart_disease,
+                EVER_MARRIED_MAP[ever_married],
+                WORK_TYPE_MAP[work_type],
+                RESIDENCE_TYPE_MAP[residence_type],
+                avg_glucose_level,
+                bmi,
+                SMOKING_STATUS_MAP[smoking_status],
+            ]
+        ]
+    )
 
     prediction = model.predict(input_data)
     prediction_prob = model.predict_proba(input_data)[:, 1]
@@ -78,8 +92,16 @@ smoking_status = st.selectbox("Smoking status", list(SMOKING_STATUS_MAP.keys()))
 
 if st.button("Predict"):
     prediction, prediction_prob = predict(
-        age, avg_glucose_level, bmi, gender, hypertension, heart_disease,
-        ever_married, work_type, residence_type, smoking_status,
+        age,
+        avg_glucose_level,
+        bmi,
+        gender,
+        hypertension,
+        heart_disease,
+        ever_married,
+        work_type,
+        residence_type,
+        smoking_status,
     )
 
     if prediction == 1:
